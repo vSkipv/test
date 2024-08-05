@@ -1,0 +1,79 @@
+	1: ID, name= include
+	1: operator, less than: <
+	1: ID, name= stdio
+	1: ERROR: .
+	1: ID, name= h
+	1: operator, greater than: >
+	3: reserved word: int
+	3: ID, name= main
+	3: left parenthesis: (
+	3: right parenthesis: )
+	3: left curly bracket: {
+	5: ID, name= double
+	5: ID, name= num
+	5: semi colum: ;
+	6: ID, name= printf
+	6: left parenthesis: (
+	6: ID, name= Enter
+	6: ID, name= a
+	6: ID, name= number
+	6: ERROR: :
+	6: right parenthesis: )
+	6: semi colum: ;
+	7: ID, name= scanf
+	7: left parenthesis: (
+	7: ERROR: %
+	7: ID, name= lf
+	7: comma: ,
+	7: ERROR: &
+	7: ID, name= num
+	7: right parenthesis: )
+	7: semi colum: ;
+	8: reserved word: if
+	8: left parenthesis: (
+	8: ID, name= num
+	8: operator, less than or equal: <=
+	8: NUM, val= 0
+	8: ERROR: .
+	8: NUM, val= 0
+	8: right parenthesis: )
+	8: left curly bracket: {
+	9: reserved word: if
+	9: left parenthesis: (
+	9: ID, name= num
+	9: operator, assign: ==
+	9: NUM, val= 0
+	9: right parenthesis: )
+	10: ID, name= printf
+	10: left parenthesis: (
+	10: ID, name= You
+	10: ID, name= entered
+	10: NUM, val= 0
+	10: right parenthesis: )
+	10: semi colum: ;
+	11: reserved word: else
+	12: ID, name= printf
+	12: left parenthesis: (
+	12: ID, name= You
+	12: ID, name= entered
+	12: ID, name= a
+	12: ID, name= negative
+	12: ID, name= number
+	12: right parenthesis: )
+	12: semi colum: ;
+	13: right curly bracket: }
+	14: reserved word: else
+	15: ID, name= printf
+	15: left parenthesis: (
+	15: ID, name= You
+	15: ID, name= entered
+	15: ID, name= a
+	15: ID, name= positive
+	15: ID, name= number
+	15: right parenthesis: )
+	15: semi colum: ;
+	17: reserved word: return
+	17: NUM, val= 0
+	17: semi colum: ;
+	18: right curly bracket: }
+	20: EOF
